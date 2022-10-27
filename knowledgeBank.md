@@ -30,3 +30,10 @@ Meta functions
 - description gives the breakdown of what to expect of the page
 - keywords, help your page come up in the browser
 - link, describe the relationship between your html document and an external document. where the rel attribute means relationship
+
+Wats to centre a div
+
+position: absolute;
+top: 50%;
+left; 50%;
+
