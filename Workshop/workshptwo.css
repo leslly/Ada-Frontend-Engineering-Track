@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.transform{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    transform: scale(0,5);
+}
+.transform-size{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+}
+.transition{
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    transition: height 3s;
+}
+.transition:hover{
+
+    width: 50%;
+}
+.animation{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    border: 3px dashed blueviolet;
+    animation: example 2s;
+    animation-iteration-count: 5;
+}
+
+@keyframes example {
+     from{background-color: greenyellow;}
+    to{background-color: yellow;} 
+
+
+}
